@@ -1,0 +1,11 @@
+<h1>{{ title }}</h1>
+<form #usersForms="ngForm" (ngSubmit)="getUserFormData(usersForms.value )">
+  <input type="text" ngModel name="country" placeholder="country">
+  <br> <br>
+  <input type="text" ngModel name="region" placeholder="region">
+  <br> <br>
+  <input type="text" ngModel name="topic" placeholder="topic">
+  <br> <br>
+  <button> Add New</button>
+
+</form>
